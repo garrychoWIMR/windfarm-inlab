@@ -1,4 +1,4 @@
-# Windfarm Screening Questionnaire
+# Windfarm Inlab
 
-https://woolcock-imr.github.io/windfarm-screening-questionnaire/index.html  
-https://woolcock-imr.github.io/windfarm-screening-questionnaire/index.html?database=development  
+https://woolcock-imr.github.io/windfarm-inlab/index.html  
+https://woolcock-imr.github.io/windfarm-inlab/index.html?database=development  
