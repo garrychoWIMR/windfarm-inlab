@@ -33,9 +33,8 @@
 		})
 		//---------------------------------------------
 		var setup=function(txt){
-			//q_list=$vm.app_config.quest_list;
 			q_list=$vm.module_list[prefix+"quest_list"].list;
-			record=$vm.vm['__ID'].op.record;
+			record=$vm.vm['__ID'].op.input.record;
             $('#Login_ID__ID').val(record.UID+"-"+setup_pid);
             $('#Participant__ID').val(record.Subject_Initials+" "+record.DOB);
             $('#Password__ID').val('');
