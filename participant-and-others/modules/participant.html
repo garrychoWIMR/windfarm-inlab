@@ -4,7 +4,7 @@
 <script>
     function F__ID(){
         //-------------------------------------
-		_fields="_Form,Record_ID,Registration_ID,Randomisation_Number,Randomised_by,Screening_Number,Subject_Initials,Gender,DOB,_Data_Entry,_Setup,_Quest";
+	       _fields="_Form,Screening Number (S)|Screening_Number,Clinical Screening Number (C)|Clinical_Number,Randomisation_Number,Randomised_by,Subject_Initials,Gender,DOB,_Data_Entry,_Setup,_Quest";
         _fields+=",Submit Date|DateTime,Submitted by|Author,_Delete";
         //-------------------------------------
         VmInclude:__COMPONENT__/grid/grid.v3.js
@@ -51,7 +51,7 @@
                 case '_Data_Entry':
                     records[I].vm_custom[field]=true;
                     if(_records[I].UID===undefined) return;
-                    td.html("<u style='cursor:pointer'>Data Entry</u>");
+                    td.html("<u style='cursor:pointer'>Participant Data</u>");
                     td.find('u').on('click',function(){
                         $vm.nav_load_module('windfarm-lab-study-child',$vm.root_layout_content_slot,{record:records[I]});
                     });

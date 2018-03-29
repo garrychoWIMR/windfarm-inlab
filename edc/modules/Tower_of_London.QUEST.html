@@ -1,5 +1,4 @@
 <section style='display:none'>
-    VmInclude:__BASE__/vmiis/Common-Code/toolbar/back_save_print.html
     <div id=pvdiv__ID>
         <form id=F__ID>
             <table id=tb__ID style='width:500px;'>
@@ -9,6 +8,7 @@
                     <input name=Participant  id=Participant__ID  type=text class=sel__ID placeholder='select a partcipant...'/>
                     <input name=Participant_uid id=Participant_uid__ID type=text readonly style="width:50px;color:#ccc;" />
                     <u style='cursor:pointer;float:right;' id=Participant_r__ID>Remove</u>
+
                 </td></tr>
                 <tr><td data-id=TGME data-custom=1 >TGME <i>(Grand mean number of errors)</i></td><td><input name=TGME type=text /></td></tr>
                 <tr><td data-id=TGMT data-custom=1 >TGMT <i>(Grand mean execution time)</i></td><td><input name=TGMT type=text /></td></tr>
@@ -22,11 +22,14 @@
         </form>
     </div>
 </section>
+<section style='margin:auto'>
+    VmInclude:__COMPONENT__/toolbar/back_save.html
+
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1100" height="800" align="middle">
-    <param value="__BASE__/woolcock-imr/Common-Modules/flash/Tower_London.swf"/>
+    <param value="__CURRENT_PATH__/flash/Tower_London.swf"/>
     <!--[if !IE]>-->
-    <object type="application/x-shockwave-flash" data="__BASE__/woolcock-imr/Common-Modules/flash/Tower_London.swf" width="1100" height="800">
-        <param value="__BASE__/woolcock-imr/Common-Modules/flash/Tower_London.swf"/>
+    <object type="application/x-shockwave-flash" data="__CURRENT_PATH__/flash/Tower_London.swf" width="1100" height="800">
+        <param value="__CURRENT_PATH__/flash/Tower_London.swf"/>
     <!--<![endif]-->
         <a href="//www.adobe.com/go/getflash">
             <img src="//www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
@@ -39,9 +42,9 @@
 <script>
     function F__ID(){
         //----------------------------------
-        VmInclude:__BASE__/vmiis/Common-Code/grid/form.js
-        VmInclude:__BASE__/woolcock-imr/windfarm/common-code/participant.js
-        
+        VmInclude:__COMPONENT__/grid/form.v3.js
+        VmInclude:__CURRENT_PATH__/task.form.js
+        _json=''
         //----------------------------------
         $('#D__ID').on('load',function(){
             _init();
@@ -118,6 +121,6 @@
     };
 </script>
 <style>
-    VmInclude:__BASE__/vmiis/Common-Code/style/default.css
-    VmInclude:__BASE__/vmiis/Common-Code/style/form.css
+VmInclude:__COMPONENT__/style/default.css
+VmInclude:__COMPONENT__/style/form.css
 </style>

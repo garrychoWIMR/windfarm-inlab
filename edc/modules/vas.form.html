@@ -1,5 +1,5 @@
 <section>
-    VmInclude:__BASE__/vmiis/Common-Code/toolbar/back_save.html
+    VmInclude:__COMPONENT__/toolbar/back_save.html
 	<form id=F__ID>
         <table id=tb__ID style='width:900px;'>
             <colgroup><col style='width:250px'/>
@@ -57,16 +57,16 @@
                             <tr><td>Not at all</td><td data-id=AWAKEN data-custom=1></td><td>Worst I can imagine</td></tr>
                             <tr><td colspan=3 style='text-align:center'><br>ANXIETY</td></tr>
                             <tr><td>Not at all</td><td data-id=ANXIETY data-custom=1></td><td>Worst I can imagine</td></tr>
-                            
+
                 </table>
             </form>
 </section>
 <script>
     function F__ID(){
         //----------------------------------
-        VmInclude:__BASE__/woolcock-imr/windfarm/common-code/participant.js
-        VmInclude:__BASE__/vmiis/Common-Code/grid/form.js
-        var _task_fields;
+        VmInclude:__COMPONENT__/grid/form.v3.js
+        VmInclude:__CURRENT_PATH__/task.form.js
+        _json=''
         //----------------------------------
         $('#D__ID').on('load',function(){
             _init();
@@ -90,7 +90,7 @@
                     case 'BLUR':
                     case 'DIZZY':
                     case 'HEART':
-                    case 'VERTIGO': 
+                    case 'VERTIGO':
                     case 'NAUSEA':
                     case 'TIREDNESS':
                     case 'FAINT':
@@ -102,7 +102,7 @@
                     case 'MUSCLE':
                     case 'DISRUPTEDSLEEP':
                     case 'AWAKEN':
-                    case 'ANXIETY':               
+                    case 'ANXIETY':
                         var txt="<div class="+field+" style='position:relative;height:16px'>";
                         txt+="<hr style='border:1px solid black;position:absolute;width:100%;top:8px;left:0px;z-index:100'>";
                         txt+="<div style='margin-left:20px;position:absolute;top:0px;left:0px;width:5px;height:16px;background-color:red;z-index:200'></div></div>";
@@ -137,8 +137,8 @@
     }
 </script>
 <style>
-VmInclude:__BASE__/vmiis/Common-Code/toolbar/toolbar.css
-VmInclude:__BASE__/vmiis/Common-Code/grid/form.css
+VmInclude:__PARTS__/toolbar/toolbar.css
+VmInclude:__PARTS__/grid/form.css
     #tb__ID input[type=radio]{
         cursor:pointer;
     }
