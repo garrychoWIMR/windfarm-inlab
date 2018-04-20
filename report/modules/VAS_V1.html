@@ -19,9 +19,20 @@ function F__ID(){
 	//-------------------------------------
 	_set_req=_set_req_export=function(){
 		//-----------------
-		var sql=" select Task ='Visit 1-11:30',Information from [TABLE-20009518] where puid=@I1";
-		sql+=" union select Task ='Visit 1-15:30',Information from [TABLE-20009200] where puid=@I1";
-    sql+=" union select Task ='Visit 1-19:30',Information from [TABLE-20009201] where puid=@I1";
+		var sql=" select Task ='Visit 1 Day 1-11:30',Information from [TABLE-20009518] where puid=@I1";
+		sql+=" union select Task ='Visit 1 Day 1-15:30',Information from [TABLE-20009200] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 1-19:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 2-7:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 2-11:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 2-15:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 2-19:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 3-7:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 3-11:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 3-15:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 3-19:30',Information from [TABLE-20009201] where puid=@I1";
+    sql+=" union select Task ='Visit 1 Day 4-7:30',Information from [TABLE-20009201] where puid=@I1";
+
+
 
     var i1=$('#uid__ID').val();
 		if(i1==''){
