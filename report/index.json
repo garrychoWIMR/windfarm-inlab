@@ -1,7 +1,13 @@
 {
 	"modules":
 	{
-		"VAS_V1":	          						{"url":"report/modules/VAS_V1.html", "name_for_search":"Visual Analogue Scale (VAS) - Visit 1 "}
+		"VAS_V1":	          						{"url":"report/modules/VAS_V1.html", "name_for_search":"Visual Analogue Scale (VAS) - Visit 1 "},
+		"NAS_V1":	          						{"url":"report/modules/NAS_V1.html", "name_for_search":"Noise Annoyance Scale (VAS) - Visit 1 "},
+	"NBACK_V1":	          						{"url":"report/modules/NBACK_V1.html", "name_for_search":"NBack - Visit 1 "},
+		"TOL_V1":	          						{"url":"report/modules/TOL_V1.html", "name_for_search":"Tower of London - Visit 1 "},
+		"PVT_V1":	          						{"url":"report/modules/PVT_V1.html", "name_for_search":"Psychomotor Vigilance Task(PVT) - Visit 1 "}
+
+
 
 	}
 }
