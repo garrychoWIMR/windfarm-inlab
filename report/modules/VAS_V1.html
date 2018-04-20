@@ -15,13 +15,14 @@ function F__ID(){
     //------------------------
     VmInclude:__COMPONENT__/grid/grid.v3.js
 	//-------------------------------------
-	_fields="Task,HEADACHES,RINGING,ITCH,BLUR,DIZZY,HEART,VERTIGO,NAUSEA,TIREDNESS,FAINT,SLEEPINESS,CONCENTRATING,MEMORY,FATIGUE,IRRITABILITY,MUSCLE,DISRUPTEDSLEEP,AWAKEN,ANXIETY";
+	_fields="Task,DOB,HEADACHES,RINGING,ITCH,BLUR,DIZZY,HEART,VERTIGO,NAUSEA,TIREDNESS,FAINT,SLEEPINESS,CONCENTRATING,MEMORY,FATIGUE,IRRITABILITY,MUSCLE,DISRUPTEDSLEEP,AWAKEN,ANXIETY";
 	$('#aquery__ID').on('click',function(){_set_req(); _request_data();})
 	//-------------------------------------
 	_set_req=_set_req_export=function(){
 		//-----------------
 
-  	var sql=" select Task='Visit 1 Day 1 11:30',Information from [TABLE-20009518] where puid=@I1";
+  	//var sql="with DOB as (select DOB,Information from [TABLE-20008848])";
+    var sql="select Task='Visit 1 Day 1 11:30',Information from [TABLE-20009518] where puid=@I1";
 		sql+=" union select Task='Visit 1 Day 1 15:30',Information from [TABLE-20009200] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 1 19:30',Information from [TABLE-20009201] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 2 07:30',Information from [TABLE-20009204] where puid=@I1";
@@ -30,9 +31,10 @@ function F__ID(){
     sql+=" union select Task='Visit 1 Day 2 19:30',Information from [TABLE-20009208] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 3 07:30',Information from [TABLE-20009211] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 3 11:30',Information from [TABLE-20009212] where puid=@I1";
-    sql+=" union select Task='Visit 1 Day 3 15:30',Information from [TABLE-20009213] where puid=@I1";
+    sql+=" union se lect Task='Visit 1 Day 3 15:30',Information from [TABLE-20009213] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 3 19:30',Information from [TABLE-20009216] where puid=@I1";
     sql+=" union select Task='Visit 1 Day 4 07:30',Information from [TABLE-20009274] where puid=@I1";
+
 
     var i1=$('#uid__ID').val();
 		if(i1==''){
