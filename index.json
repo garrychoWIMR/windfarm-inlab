@@ -5,6 +5,8 @@
     "panels":{
 		"website":					{"url":"","modules":["website/index.json"]},
 		"panel-main":				{"url":"panel/main.html", "modules":["participant-and-others/index.json","edc/index.json"]},
-		"windfarm-lab-study-child":	{"url":"panel/child.html","modules":["participant-and-others/index.json","edc/index.json"]}
+		"windfarm-lab-study-child":	{"url":"panel/child.html","modules":["participant-and-others/index.json","edc/index.json"]},
+		"windfarm-lab-study-report":{"url":"report/panel.html",     "modules":["report/index.json"]}
+
 	}
 }
