@@ -3,7 +3,7 @@
 		Participant ID <input type=text id=uid__ID>
         <a id=aquery__ID >Query</a>
         <a id=export__ID >Export</a>
-    	<span class=tab__ID></span>Visit 2 - Tower of London
+    	<span class=tab__ID></span>Visit 2_ Tower of London
     </div>
     <div id=table__ID>
         <table id=grid__ID></table>
@@ -15,7 +15,7 @@ function F__ID(){
     //------------------------
     VmInclude:__COMPONENT__/grid/grid.v3.js
 	//-------------------------------------
-	_fields="Participant,Task,Grand Mean Number of Errors|TGME,Grand Mean Execution Time|TMGT,Grand Number of Missed Goals|TMIS,Grand Mean of Time between start of test and first move (sec)|TPLAN";
+	_fields="Participant,Task,Grand Mean Number of Errors|TGME,Grand Mean Execution Time|TGMT,Grand Number of Missed Goals|TMIS,Grand Mean of Time between start of test and first move (sec)|TPLAN";
 	$('#aquery__ID').on('click',function(){_set_req(); _request_data();})
 	//-------------------------------------
 	_set_req=_set_req_export=function(){

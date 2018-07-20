@@ -1,21 +1,21 @@
 {
 	"modules":
 	{
-		"VAS_V1":	          						{"url":"report/modules/VAS_V1.html", "name_for_search":"Visual Analogue Scale (VAS) - Visit 1 "},
-		"NAS_V1":	          						{"url":"report/modules/NAS_V1.html", "name_for_search":"Noise Annoyance Scale (VAS) - Visit 1 "},
-	"NBACK_V1":	          						{"url":"report/modules/NBACK_V1.html", "name_for_search":"NBack - Visit 1 "},
-		"TOL_V1":	          						{"url":"report/modules/TOL_V1.html", "name_for_search":"Tower of London - Visit 1 "},
-		"PVT_V1":	          						{"url":"report/modules/PVT_V1.html", "name_for_search":"Psychomotor Vigilance Task(PVT) - Visit 1 "},
-		"VAS_V2":	          						{"url":"report/modules/VAS_V2.html", "name_for_search":"Visual Analogue Scale (VAS) - Visit 2"},
-		"NAS_V2":	          						{"url":"report/modules/NAS_V2.html", "name_for_search":"Noise Annoyance Scale (VAS) - Visit 2 "},
-	"NBACK_V2":	          						{"url":"report/modules/NBACK_V2.html", "name_for_search":"NBack - Visit 2 "},
-		"TOL_V2":	          						{"url":"report/modules/TOL_V2.html", "name_for_search":"Tower of London - Visit 2 "},
-		"PVT_V2":	          						{"url":"report/modules/PVT_V2.html", "name_for_search":"Psychomotor Vigilance Task(PVT) - Visit 2 "},
-		"VAS_V3":	          						{"url":"report/modules/VAS_V3.html", "name_for_search":"Visual Analogue Scale (VAS) - Visit 3 "},
-		"NAS_V3":	          						{"url":"report/modules/NAS_V3.html", "name_for_search":"Noise Annoyance Scale (VAS) - Visit 3 "},
-	"NBACK_V3":	          						{"url":"report/modules/NBACK_V3.html", "name_for_search":"NBack - Visit 3 "},
-		"TOL_V3":	          						{"url":"report/modules/TOL_V3.html", "name_for_search":"Tower of London - Visit 3 "},
-		"PVT_V3":	          						{"url":"report/modules/PVT_V3.html", "name_for_search":"Psychomotor Vigilance Task(PVT) - Visit 3" }
+		"VAS_V1":	          						{"url":"report/modules/VAS_V1.html", "name_for_search":"Visual Analogue Scale (VAS)_ Visit 1 "},
+		"NAS_V1":	          						{"url":"report/modules/NAS_V1.html", "name_for_search":"Noise Annoyance Scale (VAS)_ Visit 1 "},
+	"NBACK_V1":	          						{"url":"report/modules/NBACK_V1.html", "name_for_search":"NBack_ Visit 1 "},
+		"TOL_V1":	          						{"url":"report/modules/TOL_V1.html", "name_for_search":"Tower of London_ Visit 1 "},
+		"PVT_V1":	          						{"url":"report/modules/PVT_V1.html", "name_for_search":"Psychomotor Vigilance Task(PVT)_ Visit 1 "},
+		"VAS_V2":	          						{"url":"report/modules/VAS_V2.html", "name_for_search":"Visual Analogue Scale (VAS)_ Visit 2"},
+		"NAS_V2":	          						{"url":"report/modules/NAS_V2.html", "name_for_search":"Noise Annoyance Scale (VAS)_ Visit 2 "},
+	"NBACK_V2":	          						{"url":"report/modules/NBACK_V2.html", "name_for_search":"NBack_ Visit 2 "},
+		"TOL_V2":	          						{"url":"report/modules/TOL_V2.html", "name_for_search":"Tower of London_ Visit 2 "},
+		"PVT_V2":	          						{"url":"report/modules/PVT_V2.html", "name_for_search":"Psychomotor Vigilance Task(PVT)_ Visit 2 "},
+		"VAS_V3":	          						{"url":"report/modules/VAS_V3.html", "name_for_search":"Visual Analogue Scale (VAS)_ Visit 3 "},
+		"NAS_V3":	          						{"url":"report/modules/NAS_V3.html", "name_for_search":"Noise Annoyance Scale (VAS)_ Visit 3 "},
+	"NBACK_V3":	          						{"url":"report/modules/NBACK_V3.html", "name_for_search":"NBack_ Visit 3 "},
+		"TOL_V3":	          						{"url":"report/modules/TOL_V3.html", "name_for_search":"Tower of London_ Visit 3 "},
+		"PVT_V3":	          						{"url":"report/modules/PVT_V3.html", "name_for_search":"Psychomotor Vigilance Task(PVT)_ Visit 3" }
 
 
 
